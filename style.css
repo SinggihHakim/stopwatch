@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: black;
+    height: 550px;
+    width: 900px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 35px 0px #fff;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.judul h1 {
+    align-items: center;
+    
+}
+
+.tabel {
+    justify-content: center;
+    align-items: center;
+    margin-top: -130px;
+    width: 500px;
+    height: 250px;
+    padding: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient rgba(0,0,0,0.8), rgba(0,0,0,0.8) ;
+}
+
+.tabel h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#displayTime {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.tombol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tombol img{
+    width: 80px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
